@@ -1,31 +1,31 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/1/redis3.jpg",
+            "cover": "/portfolio/portfolio/1/redis3.jpg",
             "title": "Redis - Web Developer",
             "description": "Technologies: Figma, Node, GIT, Wordpress, Gutenberg, HUGO, HTML5, SASS, MySQL, jQuery, JavaScript, PHP, ES6, DevTools, VS Code, JIRA",
             "url": "https://www.redis.com/business"
         },
         {
-            "cover": "/portfolio/1/tesla-contact.jpeg",
+            "cover": "/portfolio/portfolio/1/tesla-contact.jpeg",
             "title": "Tesla - Full-Stack React & Accessibility",
             "description": "Technologies: Node, GIT, Docker, HTML5, SASS, JavaScript, React, jQuery, TypeScript, Drupal, PHP, aXe, ChromeVox, DevTools, VS Code, Color Contrast Analyzer, JIRA",
             "url": "https://www.tesla.com/"
         },
         {
-            "cover": "/portfolio/1/lulus_web.jpg",
+            "cover": "/portfolio/portfolio/1/lulus_web.jpg",
             "title": "Lulus.com - Front-End Developer / Web Designer & Accessibility",
             "description": "Technologies: Node, MySQL, GIT, ElasticSearch, HTML5, SASS, jQuery, JavaScript, PHP, YAF, Jest, Docker, DevTools, VS Code, BrowserStack",
             "url": "https://lulus.com/"
         },
         {
-            "cover": "/portfolio/1/ms_special_olympics.jpg",
+            "cover": "/portfolio/portfolio/1/ms_special_olympics.jpg",
             "title": "Microsoft - Full-Stack Wordpress & Accessibility ",
             "description": "Technologies: Wordpress, Azure, HTML5, CSS3, PHP, JavaScript, DevTools, NVDA, JAWS, ChromeVox, VS Code, BrowserStack, Color Contrast Analyzer, aXe",
             "url": "http://google.com"
         },
         {
-            "cover": "/portfolio/1/AIASF.jpg",
+            "cover": "/portfolio/portfolio/1/AIASF.jpg",
             "title": "AIASF – American Institute of Architects San Francisco",
             "description": "HTML5, CSS3, JavaScript, DevTools, Brackets.io",
             "url": "https://aiasf.org/"
