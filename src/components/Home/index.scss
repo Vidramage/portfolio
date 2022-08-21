@@ -1,0 +1,236 @@
+.home-page {
+
+    .text-zone {
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40%;
+        max-height: 90%;
+    }
+
+    h1 {
+        color: #fff;
+        text-shadow: 1px 1px #8d8d8d;
+        font-size: 53px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+
+        &::before {
+            content: '<h1>';
+            font-family: 'La Belle Aurore';
+            color: #ffd700;
+            font-size: 18px;
+            position: absolute;
+            margin-top: -40px;
+            left: 15px;
+            opacity: 0.6;
+        }
+
+        &::after {
+            content: '</h1>';
+            font-family: 'La Belle Aurore';
+            color: #ffd700;
+            font-size: 18px;
+            position: absolute;
+            margin-top: 18px;
+            margin-left: 20px;
+            animation: fadeIn 1s 1.7s backwards;
+            opacity: 0.6;
+        }
+
+        img {
+            width: 42px;
+            margin-left: 20px;
+            opacity: 0;
+            height: auto;
+            animation: rotateIn 1s linear both;
+            animation-delay: 1.4s;
+        }
+    }
+
+    h2 {
+        color: #8d8d8d;
+        margin-top: 20px;
+        margin-bottom: 23px;
+        font-weight: 400;
+        font-size: 11px;
+        font-family: sans-serif;
+        letter-spacing: 3px;
+        animation: fadeIn 1s 1.8s backwards;
+    }
+
+    .flat-button {
+        color: #ffd700;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 1px solid #ffd700;
+        margin-top: 25px;
+        float: left;
+        animation: fadeIn 1s 1.8s backwards;
+        white-space: nowrap;
+
+        &:hover {
+            background: #ffd700;
+            color: #333;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) { 
+    .tags,
+    .home-page h1::before,
+    .home-page h1::after {
+        display: none;
+    }
+
+    .home-page {
+        .text-zone {
+            position: initial;
+            width: 100%;
+            transform: none;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .flat-email-button {
+            float: left;
+            display: block;
+            margin-top: 20px;
+        }
+
+        .logo-container {
+            display: relative !important;
+            width: 100px;
+            height: auto;
+            top: 50px;
+            right: 0;
+            box-sizing: border-box;
+            margin: auto;
+        }
+    }
+}
+
+
+.viewwork {
+    padding-right: 10%;
+}
+
+.contactclass {
+    padding-right: 10%;
+    margin-top: 2%;
+}
+
+.flat-email-button {
+    font-size: 16px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid rgb(255 254 250 / 1);
+    background-color: #022c43;
+    color: rgb(255 254 250 / 1);
+    background-repeat: no-repeat;
+    background-position: 400%;
+    background-size: 140%;
+    background-image: url(../../assets/images/button-yellow-svg.svg);
+    transition-duration: .5s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    align-items: center;
+    display: flex;
+    animation: fadeInUp 2.3s 2.3s backwards;
+    width: 141px;
+    height: 28px;
+    margin-bottom: 2%;
+    margin-left: 5px;
+    float: left;
+}
+
+
+
+.flat-email-button:hover {
+    -webkit-box-shadow: inset 0 0 0 1px #115173;
+    -moz-box-shadow: inset 0 0 0 1px #115173;
+    box-shadow: inset 0 0 0 1px #115173;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    color: #022c43;
+    transition-duration: .5s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    cursor: pointer;
+    svg {
+        color: #115173 !important;
+    }
+}
+.flat-email-button:active {
+    -webkit-box-shadow: inset 0 0 0 1px #115173;
+    -moz-box-shadow: inset 0 0 0 1px #115173;
+    box-shadow: inset 0 0 0 1px #115173;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    color: #022c43;
+    transition-duration: .5s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    cursor: pointer;
+}
+
+.letter {
+    padding-right: 3px;
+}
+
+.info-map {
+    position: absolute;
+    background-color: #000;
+    top: 50px;
+    right: 30%;
+    z-index: 999999;
+    width: 267px;
+    padding: 20px;
+    color: #fff;
+    font-family: 'Helvetica';
+    font-size: 17px;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 1s 1.5s;
+    animation-fill-mode: forwards;
+
+    span {
+        font-size: 16px;
+        display: block;
+        padding-top: 20px;
+        color: #ffd700;
+    }
+}
+
+.map-wrap {
+    background: rgba(8, 253, 216, 0.1);
+    float: right;
+    width: 53%;
+    height: 100%;
+}
+
+.leaflet-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: 0;
+    animation: backInRight 1s 1.2s;
+    animation-fill-mode: forwards;
+}
+
+@media screen and (max-width: 390px) {
+    .flat-email-button {
+        width: 30%;
+        font-size: 1.2rem;
+        height: auto;
+    }
+}
