@@ -1,32 +1,76 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/portfolio/1/redis3.jpg",
-            "title": "Redis - Web Developer",
-            "description": "Technologies: Figma, Node, GIT, Wordpress, Gutenberg, HUGO, HTML5, SASS, MySQL, jQuery, JavaScript, PHP, ES6, DevTools, VS Code, JIRA",
+            "cover": "/portfolio/portfolio/1/redis-business.jpg",
+            "page": "Redis.com - Business Microsite - ",
+            "title": "Web Developer/Wordpress Developer",
+            "description": "Technologies: Figma, Node, GIT, Wordpress, Gutenberg, HUGO, HTML5, SASS, MySQL, jQuery, JavaScript, PHP, ES6, DevTools, VS Code, JIRA, Github, Pantheon",
+            "testimonialOne": "'I hired Michael to help out our one man dev team develop some page templates for a microsite. He's got a lot of drive and experience that allows him to get the job done. His knowledge in CSS / HTML / Web development is very useful in a multitude of needs.'",
+            "testimonialTwo": "'Michael is an absolute pleasure to work with. He goes above and beyond to ensure the project stays on track and is done to the highest caliber. I appreciate his willingness to step in and get the job done even if it's outside of his job description. Michael is quick and diligent to get projects out the door in a speedy manner while keeping stakeholders updated along the way.'",
+            "testimonialThree": "'Michael is a great Front End Developer with many years of experience. We were very pleased with the work he completed for us for the time being. He has the mindset, if you can imagine it, we can create it. That is what I love about this guy. Most developers push to stay in the box when Michael is is more than happy to explore outside the box. He thrives outside of the box. '",
+            "testimonialFour": "In the time spent at Rently, Michael has demonstrated that he is a talented person and he can achieve great things when he set his mind on it. He understands that in order to create great UI, you must start with the user in mind and think backward into code implementation. He was highly praised by our product manager. I am sure he is going to be an asset to your team.",
             "url": "https://www.redis.com/business"
         },
         {
+            "cover": "/portfolio/portfolio/1/redis-dep.jpg",
+            "page": "Redis.com - The Data Economy Podcast Microsite - ",
+            "title": "Web Developer/Wordpress Developer",
+            "description": "Technologies: Figma, Node, GIT, Wordpress, Gutenberg, HUGO, HTML5, SASS, MySQL, jQuery, JavaScript, PHP, ES6, DevTools, VS Code, JIRA, Github, Pantheon",
+            "url": "https://redis.com/the-data-economy-podcast/"
+        },
+        {
+            "cover": "/portfolio/portfolio/1/redis-data.jpg",
+            "page": "Redis.com - The Data Economy Podcast Microsite (ep.1) - ",
+            "title": "Web Developer/Wordpress Developer",
+            "description": "Technologies: Figma, Node, GIT, Wordpress, Gutenberg, HUGO, HTML5, SASS, MySQL, jQuery, JavaScript, PHP, ES6, DevTools, VS Code, JIRA, Github, Pantheon",
+            "url": "https://redis.com/the-data-economy-podcast/episode-1/"
+        },
+        {
+            "cover": "/portfolio/portfolio/1/redis-io-commands.jpg",
+            "page": "Redis.io - Commands - ",
+            "title": "Web Developer/UI/UX Designer",
+            "description": "Technologies: Figma, Node, GIT, HUGO, HTML5, SASS, jQuery, JavaScript, ES6, DevTools, VS Code, JIRA",
+            "url": "https://redis.io/commands/"
+        },
+        {
+            "cover": "/portfolio/portfolio/1/redis-io-docs.jpg",
+            "page": "Redis.io - Documentation - ",
+            "title": "Web Developer/UI/UX Designer",
+            "description": "Technologies: Figma, Node, GIT, HUGO, HTML5, SASS, jQuery, JavaScript, ES6, DevTools, VS Code, JIRA",
+            "url": "https://redis.io/docs/"
+        },
+        {
+            "cover": "/portfolio/portfolio/1/redis-io-community.jpg",
+            "page": "Redis.io - Community - ",
+            "title": "Web Developer/UI/UX Designer",
+            "description": "Technologies: Figma, Node, GIT, HUGO, HTML5, SASS, jQuery, JavaScript, ES6, DevTools, VS Code, JIRA",
+            "url": "https://redis.io/community/"
+        },
+        {
             "cover": "/portfolio/portfolio/1/tesla-contact.jpeg",
-            "title": "Tesla - Full-Stack React & Accessibility",
+            "page": "Tesla.com - Contact Us - ",
+            "title": "Full Stack Web Developer & Accessibility Engineer (Drupal, React)",
             "description": "Technologies: Node, GIT, Docker, HTML5, SASS, JavaScript, React, jQuery, TypeScript, Drupal, PHP, aXe, ChromeVox, DevTools, VS Code, Color Contrast Analyzer, JIRA",
-            "url": "https://www.tesla.com/"
+            "url": "https://www.tesla.com/contact"
         },
         {
             "cover": "/portfolio/portfolio/1/lulus_web.jpg",
-            "title": "Lulus.com - Front-End Developer / Web Designer & Accessibility",
+            "page": "Lulus.com - ",
+            "title": "Front-End Developer / UI/UX Designer & Accessibility",
             "description": "Technologies: Node, MySQL, GIT, ElasticSearch, HTML5, SASS, jQuery, JavaScript, PHP, YAF, Jest, Docker, DevTools, VS Code, BrowserStack",
             "url": "https://lulus.com/"
         },
         {
             "cover": "/portfolio/portfolio/1/ms_special_olympics.jpg",
-            "title": "Microsoft - Full-Stack Wordpress & Accessibility ",
+            "page": "Microsoft.com - Special Olympics 2017 Microsite - ",
+            "title": "Full-Stack Wordpress & Accessibility ",
             "description": "Technologies: Wordpress, Azure, HTML5, CSS3, PHP, JavaScript, DevTools, NVDA, JAWS, ChromeVox, VS Code, BrowserStack, Color Contrast Analyzer, aXe",
-            "url": "http://google.com"
+            "url": "https://inculture.microsoft.com/social-good/inclusion/xbox-gaming-special-olympics/"
         },
         {
             "cover": "/portfolio/portfolio/1/AIASF.jpg",
-            "title": "AIASF – American Institute of Architects San Francisco",
+            "page": "AIASF.org – ",
+            "title": "American Institute of Architects San Francisco",
             "description": "HTML5, CSS3, JavaScript, DevTools, Brackets.io",
             "url": "https://aiasf.org/"
         }

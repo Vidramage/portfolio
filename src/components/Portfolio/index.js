@@ -2,11 +2,11 @@ import React, { useEffect, useState } from "react";
 import "./index.scss";
 import AnimatedLetters from '../AnimatedLetters';
 import Loader from "react-loaders";
-import portfolioData from '../../data/portfolio.json'
+import portfolioData from '../../data/portfolio.json';
+import Testimonials from "./testimonials";
 
 const Portfolio = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
-    console.log(portfolioData)
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -31,7 +31,9 @@ const Portfolio = () => {
                                 className="portfolio-image"
                                 alt="portfolio" />
                                 <div className="content">
-                                    <p className="title">{port.title}</p>
+                                    {
+                                      (port.page).length + (port.title).length > 60 ? <h4 className="titleSmall"><span className="pageBold">{port.page}</span><span>{port.title}</span></h4> : <h4 className="title"><span className="pageBold">{port.page}</span><span>{port.title}</span></h4>
+                                    }
                                     <h4 className="description">{port.description}</h4>
                                     <button className="btn" onClick={() => {window.open(port.url)}}>View</button>
                                 </div>
@@ -55,6 +57,8 @@ const Portfolio = () => {
 
                     </AnimatedLetters>
                 </h1>
+                {/* <h2 className="testimonials">Testimonials:</h2> */}
+                <Testimonials data={portfolioData.portfolio}/>
                 <div>{renderPortfolio(portfolioData.portfolio)}</div>
             </div>
             <Loader type="pacman" />
