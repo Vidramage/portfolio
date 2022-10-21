@@ -16,7 +16,7 @@ export default class Testimonials extends Component {
           showThumbs={false}
           showStatus={false}
           autoPlay={true}
-          interval={6100}
+          interval={4200}
         >
           <div>
           <img src={scott} alt="Scott Adrian"/>
@@ -59,7 +59,7 @@ export default class Testimonials extends Component {
           <img src={clark} alt="Clark Li"/>
             <div className="myCarousel">
               <h3>Clark Li</h3>
-              <h4>CTO @ Redis</h4>
+              <h4>CTO @ Rently</h4>
               {
                 this.props.data[0].testimonialFour
               }
