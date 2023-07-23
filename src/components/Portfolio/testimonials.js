@@ -16,13 +16,13 @@ export default class Testimonials extends Component {
           showThumbs={false}
           showStatus={false}
           autoPlay={true}
-          interval={6100}
+          interval={4200}
         >
           <div>
           <img src={scott} alt="Scott Adrian"/>
             <div className="myCarousel">
               <h3>Scott Adrian</h3>
-              <h4>Senior Web Developer @ Redis</h4>
+              <h4>Senior Web Developer @ Redis.com</h4>
               <div>
                 {
                     this.props.data[0].testimonialOne
@@ -35,7 +35,7 @@ export default class Testimonials extends Component {
           <img src={britiana} alt="Britiana Andrade"/>
             <div className="myCarousel">
               <h3>Britiana Andrade</h3>
-              <h4>Marketing Manager Executive Communications & CxO Programs @ Redis</h4>
+              <h4>Marketing Manager Executive Communications & CxO Programs @ Redis.com</h4>
               <div>
                 {
                     this.props.data[0].testimonialTwo
@@ -48,7 +48,7 @@ export default class Testimonials extends Component {
           <img src={jared} alt="Jared East"/>
             <div className="myCarousel">
               <h3>Jared East</h3>
-              <h4>Head of Product @ Rently</h4>
+              <h4>Head of Product @ Rently.com</h4>
               {
                     this.props.data[0].testimonialThree
               }
@@ -59,7 +59,7 @@ export default class Testimonials extends Component {
           <img src={clark} alt="Clark Li"/>
             <div className="myCarousel">
               <h3>Clark Li</h3>
-              <h4>CTO @ Redis</h4>
+              <h4>CTO @ Rently.com</h4>
               {
                 this.props.data[0].testimonialFour
               }

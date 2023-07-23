@@ -1,6 +1,13 @@
 {
     "portfolio": [
         {
+            "cover": "/portfolio/portfolio/1/education-revised.jpg",
+            "page": "Pearlparadise.com - Pearl Grading Page - ",
+            "title": "Shopify Webmaster / Web Developer",
+            "description": "Technologies: Shopify, Terminal, Powershell, HTML5, CSS3, Vanilla JavaScript, Chrome DevTools, VS Code",
+            "url": "https://www.pearlparadise.com/pages/pearl-grading"
+        },
+        {
             "cover": "/portfolio/portfolio/1/redis-business.jpg",
             "page": "Redis.com - Business Microsite - ",
             "title": "Web Developer/Wordpress Developer",

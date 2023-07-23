@@ -4,8 +4,18 @@ import AnimatedLetters from '../AnimatedLetters';
 import Loader from "react-loaders";
 import portfolioData from '../../data/portfolio.json';
 import Testimonials from "./testimonials";
+import Modal from "./modal"
 
 const Portfolio = () => {
+    const [isOpen, setIsOpen] = useState(false);
+  
+    const handleOpenModal = () => {
+    setIsOpen(true);
+    };
+
+    const handleCloseModal = () => {
+    setIsOpen(false);
+    };
     const [letterClass, setLetterClass] = useState('text-animate');
 
     useEffect(() => {
