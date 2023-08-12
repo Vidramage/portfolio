@@ -1,0 +1,36 @@
+// portfolioimages.scss
+
+.myCarousel {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2% 0;
+    background-color: #181818;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .carousel .control-dots {
+    bottom: 5px !important;
+  }
+  
+  .carousel-root {
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+  
+  .carousel .slide img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    border-radius: 0;
+    border: none;
+  }
+  
+  .carousel.carousel-slider .control-arrow {
+    background: #000 !important;
+    height: calc(100vh - 85vh) !important;
+    position: absolute;
+    top: 35% !important;
+  }
+  

@@ -41,7 +41,15 @@ textarea {
   animation-fill-mode: forwards;
 }
 
+.carousel.carousel-slider .control-arrow {
+  -webkit-box-shadow: inset 0px 0px 0px 2px #022c43 !important;
+  -moz-box-shadow: inset 0px 0px 0px 2px #022c43 !important;
+  box-shadow: inset 0px 0px 0px 2px #022c43 !important;
+}
 
+.carousel.carousel-slider .control-arrow {
+  height: calc(100vh - 85vh) !important;
+}
 
 // .App {
 //   text-align: center;
