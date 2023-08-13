@@ -2,22 +2,6 @@
     "portfolio": [
         {
             "id": 1,
-            "cover": "/portfolio/portfolio/1/hamamatsu_2fa_phone.jpg",
-            "page": "Yamaha ELP 2Factor Auth & Yamaha Robotics ",
-            "title": "Full Stack Web Developer",
-            "description": "Technologies: Git, Github, Twilio, HTML5, CSS3, Vanilla JavaScript, cPanel, Vue.JS, PHP, VS Code",
-            "urlOne" : "https://www.yamaha-usa-robotics.com/smt/mounters/ysm10",
-            "urlTwo" : "https://www.yamaha-usa-robotics.com/smt/mounters/features_ysm10b",
-            "images": [
-                "/portfolio/portfolio/1/ysm10.jpg",
-                "/portfolio/portfolio/1/ysm10b.jpg",
-                "/portfolio/portfolio/1/hamamatsui.jpg",
-                "/portfolio/portfolio/1/hamamatsu_2fa_phone.jpg",
-                "/portfolio/portfolio/1/hamamatsu_verify.jpg"
-            ]
-        },
-        {
-            "id": 2,
             "cover": "/portfolio/portfolio/1/education-revised.jpg",
             "page": "PearlParadise.com ",
             "title": "Shopify Webmaster / Web Developer",
@@ -33,7 +17,7 @@
             ]
         },
         {
-            "id": 3,
+            "id": 2,
             "cover": "/portfolio/portfolio/1/redis-business.jpg",
             "page": "Redis.com - Business Microsite & Data Economy Podcast ",
             "title": "Web Developer/Wordpress Developer",
@@ -52,7 +36,7 @@
             ]
         },
         {
-            "id": 4,
+            "id": 3,
             "cover": "/portfolio/portfolio/1/redis-io-commands.jpg",
             "page": "Redis.io - ",
             "title": "Web Developer",
@@ -67,7 +51,7 @@
             ]
         },
         {
-            "id": 5,
+            "id": 4,
             "cover": "/portfolio/portfolio/1/tesla-contact.jpeg",
             "page": "Tesla.com - Contact Us - ",
             "title": "Full Stack Web Developer & Accessibility Engineer (Drupal, React)",
@@ -82,7 +66,7 @@
             ]
         },
         {
-            "id": 6,
+            "id": 5,
             "cover": "/portfolio/portfolio/1/lulus_web.jpg",
             "page": "Lulus.com - ",
             "title": "Front-End Developer / UI/UX Designer & Accessibility",
@@ -97,7 +81,7 @@
             ]
         },
         {
-            "id": 7,
+            "id": 6,
             "cover": "/portfolio/portfolio/1/ms_special_olympics.jpg",
             "page": "Microsoft.com - Special Olympics 2017 Microsite - ",
             "title": "Full-Stack Wordpress & Accessibility ",
@@ -112,7 +96,7 @@
             ]
         },
         {
-            "id": 8,
+            "id": 7,
             "cover": "/portfolio/portfolio/1/AIASF.jpg",
             "page": "AIASF.org – ",
             "title": "American Institute of Architects San Francisco",

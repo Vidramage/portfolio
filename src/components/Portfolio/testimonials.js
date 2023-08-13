@@ -25,7 +25,7 @@ export default class Testimonials extends Component {
               <h4>Senior Web Developer @ Redis.com</h4>
               <div>
                 {
-                    this.props.data[2].testimonialOne
+                    this.props.data[1].testimonialOne
                 }
               </div>
             </div>
@@ -38,7 +38,7 @@ export default class Testimonials extends Component {
               <h4>Marketing Manager Executive Communications & CxO Programs @ Redis.com</h4>
               <div>
                 {
-                    this.props.data[2].testimonialTwo
+                    this.props.data[1].testimonialTwo
                 }
               </div>
             </div>
@@ -50,7 +50,7 @@ export default class Testimonials extends Component {
               <h3>Jared East</h3>
               <h4>Head of Product @ Rently.com</h4>
               {
-                    this.props.data[2].testimonialThree
+                    this.props.data[1].testimonialThree
               }
             </div>
           </div>
@@ -61,7 +61,7 @@ export default class Testimonials extends Component {
               <h3>Clark Li</h3>
               <h4>CTO @ Rently.com</h4>
               {
-                this.props.data[2].testimonialFour
+                this.props.data[1].testimonialFour
               }
             </div>
           </div>
